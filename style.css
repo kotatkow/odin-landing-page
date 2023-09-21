@@ -21,7 +21,6 @@ a{
 }
 
 /* header */
-
 .headerheader{
     background-color: #1f2937;
 }
@@ -36,7 +35,8 @@ a{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 1000px;
+    width: 1500px;
+    margin: 24px;
 }
 
 .headerhero{
@@ -46,12 +46,10 @@ a{
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: ;
 }
 
-.button1{
-    background-color: #3882f6;
-    color: white;
-}
+
 
 .headerlink{
     font-size: 18px;
@@ -64,7 +62,9 @@ a{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    width: 1500px;
+    margin: 108px;
 }
 
 .maintext{
@@ -78,9 +78,18 @@ a{
     color: #e5e7eb;
 }
 
+.button1{
+    background-color: #3882f6;
+    font-size: 18px;
+    color: #e5e7eb;
+    padding: 4px 20px;
+    
+}
+
 .left{
     display: flex;
     flex-direction: column;
+    width: 500px;
 }
 
 /*info*/
