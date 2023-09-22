@@ -83,7 +83,6 @@ a{
     border-radius: 10px;
     margin: 12px 0px;
     border: none;
-    
 }
 
 .left{
@@ -175,17 +174,44 @@ a{
 .signup{
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: #3882f6;
     color: white;
     width: 1500px;
     height: 200px;
     margin: 108px;
+    border-radius: 20px;
 }
 
 .button2{
     background-color: #3882f6;
     color: white;
     border-color: white;
+}
+
+.callbox{
+    display: flex;
+    flex-basis: 1000px;
+    justify-content: space-between;
+}
+
+.call{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.calltext{
+    font-size: 18px;
+}
+
+.button2{
+    background-color: #3882f6;
+    font-size: 18px;
+    color: white;
+    padding: 8px 30px;
+    border-radius: 10px;
+    margin: 12px 0px;
+    border: white solid;
 }
 
 /*footer*/
