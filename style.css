@@ -44,7 +44,9 @@ a{
     align-items: center;
 }
 
-
+.headerhero>.hero>.right>img{
+    height: 400px;
+}
 
 .headerlink{
     font-size: 18px;
@@ -96,7 +98,16 @@ a{
     font-size: 36px;
     font-weight: bold;
     color: #1f2937;
+    margin: 56px;
 }
+
+.info>ul>li>img{
+    height: 250px;
+    border-radius: 25px;
+    border: #3882f6 solid;
+    border-width: 5px;
+}
+
 
 .info{
     display: flex;
@@ -104,13 +115,42 @@ a{
     align-items: center;
 }
 
+.info>ul{
+    padding: 0px;
+    margin-bottom: 150px;
+    gap: 48px;
+    display: flex;
+    justify-content: center;
+}
+
+.info>ul>li{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 250px;
+}
+
+.info>ul>li>div{
+    margin: 10px;
+    font-size: 18px;
+}
+
+
 
 /*quote*/
+
+.quotequote{
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+}
+
 .quote{
     display: flex;
     flex-direction: column;
     align-items: center;
     background: #e5e7eb;
+    width: 1200px;
+    margin: 136px;
 }
 
 .quotetext{
@@ -120,16 +160,26 @@ a{
 
 .figure{
     align-self: flex-end;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 
 /*Sign up*/
+
+.signupsignup{
+    display: flex;
+    justify-content: center;
+}
 
 .signup{
     display: flex;
     justify-content: center;
     background-color: #3882f6;
     color: white;
+    width: 1500px;
+    height: 200px;
+    margin: 108px;
 }
 
 .button2{
