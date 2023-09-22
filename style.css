@@ -2,6 +2,11 @@ body{
     font-family: Roboto, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+html,body{
+    margin: 0px;
+    padding: 0px;
+}
+
 ul{
     list-style-type: none;
     display: flex;
@@ -11,9 +16,6 @@ ul{
     gap: 16px;
 }
 
-li{
-    flex-wrap: wrap;
-}
 
 a{
     color: white;
@@ -42,9 +44,10 @@ a{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 0px;
 }
 
-.headerhero>.hero>.right>img{
+.headerhero .hero .right img{
     height: 400px;
 }
 
@@ -100,7 +103,7 @@ a{
     margin: 56px;
 }
 
-.info>ul>li>img{
+.info ul li img{
     height: 250px;
     border-radius: 25px;
     border: #3882f6 solid;
@@ -114,7 +117,7 @@ a{
     align-items: center;
 }
 
-.info>ul{
+.info ul{
     padding: 0px;
     margin-bottom: 150px;
     gap: 48px;
@@ -122,13 +125,13 @@ a{
     justify-content: center;
 }
 
-.info>ul>li{
+.info ul li{
     display: flex;
     flex-direction: column;
     flex-basis: 250px;
 }
 
-.info>ul>li>div{
+.info ul li div{
     margin: 10px;
     font-size: 18px;
 }
